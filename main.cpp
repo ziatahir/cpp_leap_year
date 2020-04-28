@@ -26,9 +26,9 @@ int main(int argc, char* argv[]){
 
   bool flag = leapYear(year);
    if(flag == true)
-      std::cout<<" is a leap Year\n";
+      std::cout<<year<<" is a leap Year\n";
    else
-      std::cout<<" is not a leap Year\n";
+      std::cout<<year<<" is not a leap Year\n";
    return 0;
 }
 
